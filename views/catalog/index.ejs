@@ -24,7 +24,8 @@
                         <img src="<%= anime.poster_url %>" class="card-img-top" alt="<%= anime.title %>">
                         <div class="card-body">
                             <h5 class="card-title"><%= anime.title %></h5>
-                            <p class="card-text"><%= anime.synopsis %></p>
+                            <p class="card-text"><%= anime.genre %></p>
+                            <p class="card-text"><small class="card-text"><%= anime.synopsis %></small></p>
                         </div>
                         <span class="badge text-bg-primary position-absolute top-0 end-0 m-2"><%= anime.status %></span>
                     </div>
