@@ -8,5 +8,6 @@ router.get('/catalog', (req, res) => {
 });
 
 router.get('/', catalogController.index);
+router.get('/catalog/:slug', catalogController.show);
 
 module.exports = router;
